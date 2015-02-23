@@ -3,7 +3,7 @@
  *
  */
 /* global require, decaf, EZMail */
-var Thread = require('decaf-threads').Thread,
+var Thread = require('Threads').Thread,
     Mail = require('decaf-email').Mail;
 
 function address( o ) {
